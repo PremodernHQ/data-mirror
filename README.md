@@ -46,5 +46,3 @@ the site.
   (`events`, `decklists`, `archetypes`, `combos`, plus `cards`/`prices`) via the
   PremodernHQ pipeline; see that repo's `docs/DATA_PIPELINE.md`.
 - Each template documents how its fields map to the served data shape.
-- **TODO before going public:** confirm this repo's actual GitHub URL — the templates
-  currently reference `github.com/premodern-wiki/data-mirror`; update if that's not correct.
