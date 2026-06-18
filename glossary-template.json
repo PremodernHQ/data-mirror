@@ -1,0 +1,7 @@
+{
+  "_instructions": "Glossary submission template. HOW TO SUBMIT: (1) Copy the object under \"entry\" below. (2) Fill in `term` and `definition` only. (3) Send it one of these ways -- web form at https://premodernhq.com/contribute, a GitHub pull request that adds your object to the glossary array at web/data/introduction/glossary.json (the live file is a flat JSON array of {term, definition}), a Discord DM to externality_0502, or email to sv_gravity_400@proton.me. RULES: Definition must be plain language a newer player can follow in 1-3 sentences. No markdown, no HTML, no links -- just plain text. Use exactly these two fields and nothing else: no id, no date, no author, no category. Entries are sorted A-Z automatically, so you do not need to place yours in any particular spot. If a term already exists, submit an improved definition and note that it is an edit. Keep `term` in the casing it normally appears in (e.g. \"Fetchlands\", \"London Mulligan\").",
+  "entry": {
+    "term": "Dual Lands",
+    "definition": "The original nonbasic lands (such as Tundra or Underground Sea) that count as two basic land types and tap for either color with no drawback. They are a premium fixture of many Premodern mana bases and the gold standard for color fixing."
+  }
+}
