@@ -1,0 +1,81 @@
+name: Submit a Deck
+description: Share a Premodern deck — paste a link, no technical setup required.
+title: "[Deck] "
+labels: ["submission", "deck"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Only a few fields are required. If you have a
+        Moxfield / MTGGoldfish / Scryfall link, paste it and you're basically done.
+
+        Not comfortable with GitHub? You can instead DM **externality_0502** on
+        Discord with the same link and a maintainer will file this for you.
+
+  - type: input
+    id: deck-name
+    attributes:
+      label: Deck Name
+      placeholder: e.g. Chicago Sligh
+    validations:
+      required: true
+
+  - type: input
+    id: pilot-name
+    attributes:
+      label: Pilot Name
+      placeholder: e.g. Jon Finkel
+    validations:
+      required: true
+
+  - type: dropdown
+    id: archetype
+    attributes:
+      label: Archetype
+      options:
+        - Aggro
+        - Control
+        - Combo
+        - Midrange
+        - Spicy Brew
+    validations:
+      required: true
+
+  - type: input
+    id: event
+    attributes:
+      label: Associated Event (optional)
+      placeholder: e.g. Lobstercon 2024
+    validations:
+      required: false
+
+  - type: input
+    id: deck-link
+    attributes:
+      label: Deck Link
+      description: A Moxfield, MTGGoldfish, or Scryfall URL. Fill this OR the raw list below.
+      placeholder: https://moxfield.com/decks/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: deck-list
+    attributes:
+      label: Raw Decklist (MTGO format)
+      description: Use this only if you don't have a link. One card per line.
+      placeholder: |
+        4 Lightning Bolt
+        4 Jackal Pup
+        ...
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / Citation
+      description: Where did this list come from? (event report, a tweet, the pilot, etc.)
+      placeholder: e.g. https://example.com/Premodern/...
+    validations:
+      required: true

@@ -1,0 +1,63 @@
+name: Submit an Event
+description: Add a Premodern tournament or league result.
+title: "[Event] "
+labels: ["submission", "event"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Keep it simple — a results link is the most
+        important field.
+
+        Not comfortable with GitHub? You can instead DM **externality_0502** on
+        Discord with the results link and a maintainer will file this for you.
+
+  - type: input
+    id: event-name
+    attributes:
+      label: Event Name
+      placeholder: e.g. Lobstercon 2024
+    validations:
+      required: true
+
+  - type: input
+    id: event-date
+    attributes:
+      label: Date
+      placeholder: e.g. 2024-09-14
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location / Online
+      description: Physical venue and city, or "Online" plus the platform.
+      placeholder: e.g. Boston, MA  —  or  —  Online (MTGO)
+    validations:
+      required: true
+
+  - type: input
+    id: organizer
+    attributes:
+      label: TO / Organizer
+      placeholder: e.g. Premodern Boston
+    validations:
+      required: false
+
+  - type: input
+    id: results-source
+    attributes:
+      label: Results Source Link
+      description: Required. Link to the standings or an official tournament report
+      placeholder: https://example.com/Premodern/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Player count, Top 8, format quirks, or anything else worth recording.
+    validations:
+      required: false
