@@ -1,0 +1,38 @@
+PremodernHQ Data Mirror — Third-Party Content & Disclaimers
+===========================================================
+
+This repository is an unofficial data mirror. Much of the content it
+describes is owned by third parties and is NOT covered by the CC BY 4.0
+license granted in the LICENSE file. Those rights remain with their owners.
+
+Wizards of the Coast
+--------------------
+Magic: The Gathering, card names, card text, rules text, mana symbols, set
+symbols, and related imagery are trademarks and copyrights of Wizards of the
+Coast LLC. This project is unofficial Fan Content permitted under the Wizards
+of the Coast Fan Content Policy. It is not approved, endorsed, or sponsored by
+Wizards. Portions of the materials used are property of Wizards of the Coast.
+(c) Wizards of the Coast LLC.
+
+Fan Content Policy: https://company.wizards.com/en/legal/fancontentpolicy
+
+Scryfall
+--------
+Card data is sourced from Scryfall (https://scryfall.com). This project is not
+produced, endorsed, supported by, or affiliated with Scryfall. Card data
+originating from Scryfall is used in accordance with their data guidelines;
+the underlying Magic: The Gathering intellectual property remains that of
+Wizards of the Coast (see above).
+
+Price Data
+----------
+Any price data in this repository is derived from third-party market sources
+and is provided for informational/reference purposes only. Redistribution and
+reuse of price data may be restricted by the originating source's terms of
+service. It is NOT licensed under CC BY 4.0. Consult the source's terms before
+reusing price data. Replace this paragraph with the specific source and URL,
+or remove it if the mirror contains no price data.
+
+Nothing in this repository is intended to infringe any rights held by the
+parties named above. If you are a rights holder with a concern, please open an
+issue.
